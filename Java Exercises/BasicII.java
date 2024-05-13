@@ -71,3 +71,29 @@ public class BasicII {
 }
 
  */
+
+
+// 153. Write a Java program that accepts two double variables and test if both strictly between 0 and 1 and false otherwise.
+
+/* import java.util.Scanner;
+
+public class BasicII {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double x = scanner.nextDouble();
+        double y = scanner.nextDouble();
+        if (Between(x, y)) {
+            System.out.println("The two numbers are within preferred range");
+        } else {
+            System.out.println("The two numbers are not within preferred range");
+            
+        }
+    }
+    public static boolean Between(double a, double b) {
+        if (a>1 && a<5 && b>1 && b<5) {
+            return true;
+        }return false;
+    }
+}
+ */

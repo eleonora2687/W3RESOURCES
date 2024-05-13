@@ -28,7 +28,7 @@ public class Data_Types {
 // 1000.0 inch is 25.4 meters
 
 
-import java.util.Scanner;
+/* import java.util.Scanner;
 
 public class Data_Types {
     public static void main(String[] args) {
@@ -39,4 +39,29 @@ public class Data_Types {
         System.out.println(in + " inches are " + in*0.0254 + " meters\n");  
 
     }   
-}
+} */
+
+
+
+// 3. Write a Java program that reads an integer between 0 and 1000 and adds all the digits in the integer.
+
+/* import java.util.Scanner;
+
+public class Data_Types {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input an integer between 0 and 1000: ");
+        int a=scanner.nextInt();
+        int b=a;
+        int sum=0;
+        while (a!=0) {
+            sum+=a%10;
+            a/=10;
+        }
+
+        System.out.println("The sum of all digits in "+b+" is "+sum);
+    }
+    
+} */
+
+

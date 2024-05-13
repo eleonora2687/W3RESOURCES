@@ -41,3 +41,18 @@ public class Basic{
 
 } */
 
+
+// 3. Write a Java program to divide two numbers and print them on the screen.
+
+import java.util.Scanner;
+
+/* public class Basic {
+
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            int x=scanner.nextInt();
+            int y=scanner.nextInt();
+            System.out.println(x + "/" + y + "=" + x/y);
+        }
+} */
+

@@ -67,3 +67,36 @@ public class Conditional_Statements {
 
     }
 } */
+
+
+
+// 3. Write a Java program that takes three numbers from the user and prints the greatest number.
+
+/* import java.util.Scanner;
+
+public class Conditional_Statements {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int x = scanner.nextInt();
+        int y=scanner.nextInt();
+        if (x>=y) {
+            int z=scanner.nextInt();
+            if (x>=z) {
+                System.out.println(x);
+            } else {
+                System.out.println(z);
+                
+            }
+        } else {
+            int z=scanner.nextInt();
+            if (y>=z) {
+                System.out.println(y);
+            } else {
+                System.out.println(z);
+                
+            }
+        }
+    }
+    
+}
+ */
