@@ -35,10 +35,8 @@
 // to handle deposits and withdrawals for each account type.
 
 
-public class Abstract_Classes {
-    /**
-     * @param args
-     */
+/* public class Abstract_Classes {
+    
     public static void main(String[] args) {
         int ibal,damt,wamt;
         ibal = 1000;
@@ -87,4 +85,25 @@ public class Abstract_Classes {
 
     }
     
+} */
+
+
+
+
+// 5. Write a Java program to create an abstract class Employee with abstract methods calculateSalary() and displayInfo(). 
+// Create subclasses Manager and Programmer that extend the Employee class and implement the respective methods to calculate salary 
+// and display information for each role.
+
+
+/**
+ * Abstract_Classes
+ */
+/* public class Abstract_Classes {
+
+    public static void main(String[] args) {
+        Programmer programmer = new Programmer(4);
+        
+        System.out.println(programmer.calculateSalary());
+    }
 }
+ */

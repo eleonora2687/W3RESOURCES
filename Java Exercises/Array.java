@@ -29,3 +29,27 @@ public class Array {
     }
 }
  */
+
+
+// 2. Write a Java program to sum values of an array.
+
+/**
+ * Array
+ */
+/* public class Array {
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        System.out.println("The sum of the elements is: " +sum_of(arr));
+        
+    }
+
+    public static int sum_of(int[] a) {
+        int s = 0;
+        for (int i: a) {
+            s += i;
+
+        }return s;
+    }
+}
+ */

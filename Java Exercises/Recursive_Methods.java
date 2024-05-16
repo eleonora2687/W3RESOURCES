@@ -43,3 +43,26 @@ public class Recursive_Methods {
 
 
 
+// 3. Write a Java recursive method to calculate the nth Fibonacci number.
+
+import java.util.Scanner;
+
+/**
+ * Recursive_Methods
+ */
+/* public class Recursive_Methods {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        System.out.println(Fibonacci(a));
+    }
+
+    public static int Fibonacci(int n) {
+        if (n == 0 || n == 1) {
+            return n;
+        }return Fibonacci(n-1) + Fibonacci(n-2);
+    }
+}
+
+ */

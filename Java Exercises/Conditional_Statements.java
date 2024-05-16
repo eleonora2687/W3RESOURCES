@@ -100,3 +100,46 @@ public class Conditional_Statements {
     
 }
  */
+
+
+
+// 4. Write a Java program that reads a floating-point number and prints "zero" if the number is zero. Otherwise, print "positive" or "negative". 
+//  Add "small" if the absolute value of the number is less than 1, or "large" if it exceeds 1,000,000.
+// Test Data
+// Input a number: 25
+// Expected Output :
+// Input value: 25
+// Positive number
+
+import java.util.Scanner;
+
+/**
+ * Conditional_Statements
+ */
+/* public class Conditional_Statements {
+
+    public static void main(String[] args) {
+
+    Scanner scanner = new Scanner(System.in);
+
+    float x=scanner.nextFloat();
+    
+    if (Math.signum(x) == 0) {
+        System.out.println("zero");
+    } 
+    else if(x > 0) {
+        System.out.println("positive");
+    }
+    else {
+        System.out.println("negative");
+    }
+
+    if (Math.abs(x) < 1) {
+        System.out.println("small");
+    } 
+    else if(Math.abs(x) > 1000000) {
+        System.out.println("large");
+    }
+  }
+}
+ */
