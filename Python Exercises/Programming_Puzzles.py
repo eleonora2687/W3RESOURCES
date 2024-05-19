@@ -56,7 +56,7 @@ print(two_three([19, 19, 5, 5, 5, 5, 5])) """
 
 
 
-def fifth_ele(lst):
+""" def fifth_ele(lst):
     if len(lst)==8:
         counter=1
         for i in range(len(lst)):
@@ -69,4 +69,27 @@ def fifth_ele(lst):
 print(fifth_ele([19, 19, 15, 5, 5, 5, 1, 2]))
 print(fifth_ele([19, 15, 5, 7, 5, 5, 2]))
 print(fifth_ele([11, 12, 14, 13, 14, 13, 15, 14]))
-print(fifth_ele([19, 15, 11, 7, 5, 6, 2]))
+print(fifth_ele([19, 15, 11, 7, 5, 6, 2])) """
+
+
+
+# 3. Write a Python program that accepts an integer and determines whether it is greater than 4^4 and which is 4 mod 34.
+# Input:
+# 922
+# Output:
+# True
+# Input:
+# 914
+# Output:
+# False
+# Input:
+# 854
+# Output:
+# True
+
+
+""" n = int(input('Enter a positive integer: '))
+if n > 256 and n % 34 == 4:
+    print('True')
+else:
+    print('False') """

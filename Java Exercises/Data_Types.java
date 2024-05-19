@@ -72,17 +72,29 @@ public class Data_Types {
 // Expected Output :
 // 3456789 minutes is approximately 6 years and 210 days
 
-import java.util.Scanner;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.TimeZone;
 
 /**
  * Data_Types
  */
-/* public class Data_Types {
+public class Data_Types {
 
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
-        int minutes=scanner.nextInt();
-        int days=minutes/1440;
-        System.out.println(minutes+" minutes is approximately "+days/365+" years and "+days34%365+ " days");
+        
+        Date localTime = new Date();
+
+        DateFormat s = new SimpleDateFormat("HH:mm:ss");
+
+        s.setTimeZone(TimeZone.getTimeZone("GMT"));
+
+        
+        System.out.println("local Time:" + localTime);
+
+        System.out.println("Current time is "
+                        + s.format(localTime));
+
     }
-} */
+}

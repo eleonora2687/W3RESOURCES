@@ -133,4 +133,68 @@ public class BasicII {
 } */
 
 
+// 155. Write a Java program to print an array after changing the rows and columns of a two-dimensional array.
 
+// Original Array:
+// 10 20 30
+// 40 50 60
+// After changing the rows and columns of the said array:10 40
+// 20 50
+// 30 60
+
+
+/**
+ * BasicII
+ */
+/* public class BasicII {
+
+    public static void main(String[] args) {
+        int[][] array1={{10, 20, 30}, {40, 50, 60}};
+        int[][] array2 = new int[array1[0].length][array1.length];
+        int j;
+        for (int i = 0; i < array1[0].length; i++) {
+
+            for (j = 0; j < array1.length; j++) {
+                array2[i][j]=array1[j][i];
+            }
+            
+        }
+
+        for (int i = 0; i < array2.length; i++) {
+            for (j = 0; j < array2[0].length-1; j++) {
+                System.out.print(array2[i][j] + " ");
+            }
+            System.out.println(array2[i][j]);
+        }
+    }
+}
+ */
+
+
+// 156. Write a Java program that returns the largest integer but not larger than the base-2 logarithm of a specified integer.
+
+// Original Number: 2350
+// Result: 115
+
+/**
+ * BasicII
+ */
+/* public class BasicII {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int num = scanner.nextInt();
+        int log2 = 1;
+
+        int counter = 0;
+        while (log2 <= num) {
+            log2*=2;
+            counter+=1;
+        }
+        if (log2 == num) {
+            System.out.println(counter);
+        } else {
+            System.out.println(counter - 1);
+        }
+    }
+} */

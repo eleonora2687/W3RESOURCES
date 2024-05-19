@@ -4,7 +4,28 @@
     if i%7 ==0:
         print(i) """
         
-        
+
+
+# 3. Write a Python program to guess a number between 1 and 9.
+# Note : User is prompted to enter a guess. If the user guesses wrong then the prompt appears again until the guess is correct, 
+# on successful guess, user will get a "Well guessed!" message, and the program will exit.
+
+import random
+
+
+""" list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+while True:
+    guess = int(input('Enter your guess: '))
+    if guess == random.choice(list1):
+        print('Well guessed!')
+        exit
+    else:
+        print('Wrong guess..')
+        continue
+"""
+
+
 # 4. Write a  Python program to construct the following pattern, using a nested for loop.
 
 # * 

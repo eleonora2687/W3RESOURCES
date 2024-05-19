@@ -45,8 +45,6 @@ public class Recursive_Methods {
 
 // 3. Write a Java recursive method to calculate the nth Fibonacci number.
 
-import java.util.Scanner;
-
 /**
  * Recursive_Methods
  */
@@ -65,4 +63,35 @@ import java.util.Scanner;
     }
 }
 
+ */
+
+
+//  4. Write a Java recursive method to check if a given string is a palindrome.
+
+/**
+ * Recursive_Methods
+ */
+/* public class Recursive_Methods {
+
+    public static void main(String[] args) {
+        String s1="malayalam";
+        String s2="geeks";
+        System.out.println(isPalindrome(s1, 0));
+        System.out.println(isPalindrome(s2, 0));
+    }
+
+    public static boolean isPalindrome(String s, int i)
+    {
+        if (s.length()%2==0 && i>(s.length()-1)/2) {
+            return true;
+        }
+        else if(s.length()%2==1 && i==(s.length()-1)/2) {
+            return true;
+        }
+        else if(s.charAt(i)!=s.charAt(s.length()-1-i)) {
+            return false;
+        }return isPalindrome(s, i+1);
+
+    }
+}
  */

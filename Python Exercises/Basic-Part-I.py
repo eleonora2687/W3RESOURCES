@@ -39,3 +39,27 @@ dt_string = now.strftime("%Y-%m-%d %H:%M:%S")
 print("Current date and time: ")
 print(dt_string) """
 
+
+
+# 4. Write a Python program that calculates the area of a circle based on the radius entered by the user.
+# Sample Output :
+# r = 1.1
+# Area = 3.8013271108436504
+
+
+import math
+
+""" def area(r):
+      return math.pi*r*r
+
+radius = float(input("Enter radius of the circle: "))
+print('Area = ',area(radius)) """
+
+
+
+# 5. Write a  Python program that accepts the user's first and last name and prints them in reverse order with a space between them.
+
+""" first = str(input('Enter your first name: '))
+last = input('Enter your last name: ')
+
+print(last + ' ' + first) """

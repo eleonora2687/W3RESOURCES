@@ -99,3 +99,65 @@ public class Basic{
 
 
 
+// 6. Write a Java program to print the sum (addition), multiply, subtract, divide and remainder of two numbers.
+// Test Data:
+// Input first number: 125
+// Input second number: 24
+// Expected Output :
+// 125 + 24 = 149
+// 125 - 24 = 101
+// 125 x 24 = 3000
+// 125 / 24 = 5
+// 125 mod 24 = 5
+
+/**
+ * Basic
+ */
+/* public class Basic {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+
+        int add = a + b;
+        int mult = a*b;
+        int sub = a - b;
+        int div = a/b;
+        int rem = a%b;
+
+        System.out.println(a + " + " + b + " = " + add);
+        System.out.println(a + " - " + b + " = " + sub);
+        System.out.println(a + " x " + b + " = " + mult);
+        System.out.println(a + " / " + b + " = " + div);
+        System.out.println(a + " mod " + b + " = " + rem);
+    }
+} */
+
+
+
+// 7. Write a Java program that takes a number as input and prints its multiplication table up to 10.
+// Test Data:
+// Input a number: 8
+// Expected Output :
+// 8 x 1 = 8
+// 8 x 2 = 16
+// 8 x 3 = 24
+// ...
+// 8 x 10 = 80
+
+/**
+ * Basic
+ */
+/* public class Basic {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int num = scanner.nextInt();
+
+        for (int i = 1; i < 11; i++) {
+            System.out.println(num + " x " + i + " = " + num*i);
+        }
+    }    
+} */

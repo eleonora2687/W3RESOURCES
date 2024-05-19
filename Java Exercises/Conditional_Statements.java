@@ -111,8 +111,6 @@ public class Conditional_Statements {
 // Input value: 25
 // Positive number
 
-import java.util.Scanner;
-
 /**
  * Conditional_Statements
  */
@@ -140,6 +138,30 @@ import java.util.Scanner;
     else if(Math.abs(x) > 1000000) {
         System.out.println("large");
     }
-  }
+}
 }
  */
+
+
+//  5. Write a Java program that takes a number from the user and generates an integer between 1 and 7. It displays the weekday name.
+
+//  Test Data
+//  Input number: 3
+//  Expected Output :
+//  Wednesday
+
+
+/**
+ * Conditional_Statements
+ */
+/* public class Conditional_Statements {
+
+    public static void main(String[] args) {
+        String[] week = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int num = n%7+1;
+
+        System.out.println(week[num-1]);
+    }
+} */
