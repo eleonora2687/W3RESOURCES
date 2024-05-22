@@ -29,3 +29,22 @@
         vehicle.repair();
     }
 } */
+
+
+// 3. Write a Java program to create a class called Shape with a method called getArea(). 
+// Create a subclass called Rectangle that overrides the getArea() method to calculate the area of a rectangle.
+
+
+/**
+ * Inheritance
+ */
+/* public class Inheritance {
+
+    public static void main(String[] args) {
+        Rectangle rectangle = new Rectangle();
+        rectangle.setSideA(2);
+        rectangle.setSideB(3);
+
+        System.out.println(rectangle.getArea());
+    }
+} */

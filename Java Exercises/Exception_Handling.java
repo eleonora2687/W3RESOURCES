@@ -26,12 +26,10 @@
 
 //  2. Write a Java program to create a method that takes an integer as a parameter and throws an exception if the number is odd.
 
-import java.util.Scanner;
-
 /**
  * Exception_Handling
  */
-public class Exception_Handling {
+/* public class Exception_Handling {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -51,4 +49,8 @@ public class Exception_Handling {
             throw new Exception("The number you've entered is odd");
         }
     }
-}
+} */
+
+
+
+

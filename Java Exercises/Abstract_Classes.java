@@ -88,6 +88,23 @@
 } */
 
 
+// 4. Write a Java program to create an abstract class Animal with abstract methods eat() and sleep(). 
+// Create subclasses Lion, Tiger, and Deer that extend the Animal class and implement the eat() and sleep() methods differently based on their specific behavior.
+
+
+
+/**
+ * Abstract_Classes
+ */
+/* public class Abstract_Classes {
+
+    public static void main(String[] args) {
+        Lion lion = new Lion();
+        Tiger tiger = new Tiger();
+        lion.eat();
+        tiger.eat();  
+    }
+}*/
 
 
 // 5. Write a Java program to create an abstract class Employee with abstract methods calculateSalary() and displayInfo(). 

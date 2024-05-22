@@ -8,3 +8,15 @@
     }
 } */
 
+
+
+/**
+ * Animal
+ */
+/* abstract class Animal {
+    abstract void sleep();
+    abstract void eat();
+    
+}
+
+ */

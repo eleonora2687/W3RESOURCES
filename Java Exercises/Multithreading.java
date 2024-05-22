@@ -1,4 +1,4 @@
-public class Multithreading {
+/* public class Multithreading {
   public static void main(String[] args) {
     Counter counter = new Counter();
     int numThreads = 6;
@@ -23,4 +23,6 @@ public class Multithreading {
     // Print the final count
     System.out.println("Final count: " + counter.getCount());
   }
-}
+} */
+
+
