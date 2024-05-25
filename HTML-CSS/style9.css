@@ -1,0 +1,20 @@
+.ribbon {
+    position: fixed;
+    background: red;
+    box-shadow: 0 0 0 999px #08769b;
+    clip-path: inset(0 -100%);
+  }
+
+  .left {
+    inset: 0 auto auto 0;
+    transform-origin: 100% 0;
+    transform: translate(-29.3%) rotate(-45deg);
+  }
+
+
+  html {
+    color: #fff;
+    line-height: 1.3em;
+    font-family: sans-serif;
+    font-size: 25px;
+  }

@@ -21,3 +21,21 @@ for item in my_lst:
 print(num)
 """    
 
+# 3. Write a Python program to get the largest number from a list.
+
+
+""" def larg_num(lst):
+    maxi = lst[0]
+    for i in lst:
+        if maxi < i:
+            maxi = i
+    return maxi
+
+rand_list=[]
+n=10
+for i in range(n):
+    rand_list.append(random.randint(1,20))
+
+print(larg_num(rand_list))
+ """
+ 

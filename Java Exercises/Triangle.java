@@ -1,4 +1,4 @@
-public class Triangle extends Shape{
+/* public class Triangle extends Shape{
     private double side1;
     private double side2;
     private double side3;
@@ -20,3 +20,42 @@ public class Triangle extends Shape{
         return side1 + side2 + side3;
     }
 }
+ */
+
+
+
+/**
+ * Triangle
+ */
+/* public class Triangle implements Shape{
+
+    private double base, height;
+
+    public void setBase(double base) {
+        this.base = base;
+        
+    }
+
+    public double getBase() {
+        return base;
+        
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+        
+    }
+
+    public double getHeight() {
+        return height;
+        
+    }
+
+    @Override
+    public double getArea() {
+        // TODO Auto-generated method stub
+        return getBase()*getHeight()/2;
+    }
+
+    
+} */
