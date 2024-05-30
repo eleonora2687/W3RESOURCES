@@ -29,3 +29,14 @@
 
     void bark();
 } */
+
+
+/**
+ * Animal
+ */
+/* public class Animal {
+
+    public void Sound(){
+        System.out.println("The animals make some noise");
+    };
+} */

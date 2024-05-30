@@ -56,7 +56,7 @@ print(json_tpl) """
 # Print the object members with indent level 4.
 
 
-myDict = {'ravi': 10, 'rajnish': 9,
+""" myDict = {'ravi': 10, 'rajnish': 9,
         'sanjeev': 15, 'yash': 2, 'suraj': 32}
  
 myKeys = list(myDict.keys())
@@ -70,3 +70,29 @@ print(sorted_dict)
 
 j_son_dict=json.dumps(sorted_dict, indent=2)
 
+ """
+
+
+# 5. Write a Python program to convert JSON encoded data into Python objects.
+
+""" json_lst = '[0, 1, 0, 1, 2, -4]'
+json_dict = '{"name": "Eleonora", "surname": "Trikidou", "age": 37}'
+json_int = '2'
+json_float = '3.14'
+json_str = '"Hello world"'
+
+python_lst = json.loads(json_lst)
+python_dict = json.loads(json_dict)
+python_int = json.loads(json_int)
+python_float = json.loads(json_float)
+python_str = json.loads(json_str)
+
+print(python_lst)
+print(python_dict)
+print(json_int)
+print(json_float)
+print(json_str)
+
+
+
+ """

@@ -63,3 +63,55 @@
 
     
 } */
+
+
+
+
+/**
+ * Rectangle
+ */
+/* public class Rectangle {
+
+    private int length, width;
+
+    public void setLength(int length) {
+        this.length = length;
+    }
+
+    public int getLength() {
+        return length;
+    }
+
+
+    public void setWidth(int width) {
+        this.width = width;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+} */
+
+
+
+/**
+ * Rectangle
+ */
+/* public class Rectangle {
+
+    private int height, width;
+
+    Rectangle(int width, int height) {
+        this.height = height;
+        this.width = width;
+
+    }
+
+    public int Area() {
+        return height*width;
+    }
+
+    public int Perimeter() {
+        return 2*(width + height);
+    }
+} */

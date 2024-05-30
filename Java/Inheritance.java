@@ -48,3 +48,29 @@
         System.out.println(rectangle.getArea());
     }
 } */
+
+
+
+// 4. Write a Java program to create a class called Employee with methods called work() and getSalary(). 
+// Create a subclass called HRManager that overrides the work() method and adds a new method called addEmployee().
+
+
+/**
+ * Inheritance
+ */
+/* public class Inheritance {
+
+    public static void main(String[] args) {
+        Employee employee = new Employee(40000);
+        HRManager hrManager = new HRManager(70000);
+
+        employee.works();
+        System.out.println("Employee salary: " + employee.getSalary());
+
+        hrManager.works();
+        System.out.println("Manager salary: " + hrManager.getSalary());
+        hrManager.addEmployee();
+    }
+}
+
+ */

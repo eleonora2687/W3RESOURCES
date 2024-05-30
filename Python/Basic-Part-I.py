@@ -63,3 +63,24 @@ print('Area = ',area(radius)) """
 last = input('Enter your last name: ')
 
 print(last + ' ' + first) """
+
+
+
+
+# 6. Write a Python program that accepts a sequence of comma-separated numbers from the user and generates a list and a tuple of those numbers.
+# Sample data : 3, 5, 7, 23
+# Output :
+# List : ['3', ' 5', ' 7', ' 23']
+# Tuple : ('3', ' 5', ' 7', ' 23')
+
+
+
+""" values = input("Input some comma-separated numbers: ")
+
+lst = values.split(",")
+
+tuple = tuple(lst)
+
+print('List : ', lst)
+print('Tuple : ', tuple)
+ """

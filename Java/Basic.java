@@ -161,3 +161,88 @@ public class Basic{
         }
     }    
 } */
+
+
+
+// 9. Write a Java program to compute the specified expressions and print the output.
+// Test Data:
+// ((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5))
+// Expected Output
+// 2.138888888888889
+
+
+
+/**
+ * Basic
+ */
+/* public class Basic {
+
+    public static void main(String[] args) {
+        System.out.println((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5));
+    }
+} */
+
+
+
+// 10. Write a Java program to compute a specified formula.
+// Specified Formula :
+// 4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11))
+// Expected Output
+// 2.9760461760461765
+
+
+
+/**
+ * Basic
+ */
+/* public class Basic {
+
+    public static void main(String[] args) {
+        System.out.println(4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11)));
+    }
+} */
+
+
+
+// 11. Write a Java program to print the area and perimeter of a circle.
+// Test Data:
+// Radius = 7.5
+// Expected Output
+// Perimeter is = 47.12388980384689
+// Area is = 176.71458676442586
+
+/**
+ * Basic
+ */
+/* public class Basic {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double radius = scanner.nextDouble();
+
+        System.out.println("Radius = " + radius);
+        System.out.println("Perimeter = " + 2*Math.PI*radius);
+        System.out.println("Area = " + Math.PI*radius*radius);
+        
+    }
+} */
+
+
+
+// 12. Write a Java program that takes three numbers as input to calculate and print the average of the numbers.
+
+/**
+ * Basic
+ */
+/* public class Basic {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int x = scanner.nextInt();
+        int y = scanner.nextInt();
+        int z = scanner.nextInt();
+
+        System.out.println("The average of the three numbers is: " + (x+y+z)/3.0);
+    }
+} */
