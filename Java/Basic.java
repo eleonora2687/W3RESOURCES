@@ -246,3 +246,101 @@ public class Basic{
         System.out.println("The average of the three numbers is: " + (x+y+z)/3.0);
     }
 } */
+
+
+
+// 13. Write a Java program to print the area and perimeter of a rectangle.
+
+/**
+ * Basic
+ */
+/* public class Basic {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Width = ");
+        double x = scanner.nextDouble();
+        System.out.print("Height = ");
+        double y = scanner.nextDouble();
+        System.out.println("Area is " + x + " * " + y + " = " + String.format("%.2f", x*y));
+        System.out.println("Perimeter is 2 * " + "(" + x + " + " + y + ")" + " = " + String.format("%.2f", 2*(x+y)));
+    }
+} */
+
+
+
+// 14. Write a Java program to print an American flag on the screen.
+// Expected Output
+
+// * * * * * * ==================================
+//  * * * * *  ==================================
+// * * * * * * ==================================
+//  * * * * *  ==================================
+// * * * * * * ==================================
+//  * * * * *  ==================================
+// * * * * * * ==================================
+//  * * * * *  ==================================
+// * * * * * * ==================================
+// ==============================================
+// ==============================================
+// ==============================================
+// ==============================================
+// ==============================================
+// ==============================================
+
+
+
+
+/**
+ * Basic
+ */
+/* public class Basic {
+
+    public static void main(String[] args) {
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 6; j++) {
+                System.out.print("* ");
+                
+            }
+            
+            for (int j = 0; j < 34; j++) {
+                System.out.print("=");
+            }
+            System.out.println();
+
+            System.out.print(" ");
+
+            for (int j = 0; j < 5; j++) {
+                System.out.print("* ");
+                
+            }
+            System.out.print(" ");
+
+            for (int j = 0; j < 34; j++) {
+                System.out.print("=");
+            }
+            System.out.println();
+        }
+
+        for (int j = 0; j < 6; j++) {
+            System.out.print("* ");
+            
+        }
+        
+        for (int j = 0; j < 34; j++) {
+            System.out.print("=");
+        }
+        System.out.println();
+        for(int i = 0; i < 6; i++)
+        {
+            for (int j = 0; j < 46; j++) {
+            System.out.print("=");
+        }System.out.println();
+        }
+        
+    }
+}
+
+ */
+

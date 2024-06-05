@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".git"
+		},
+		{
+			"path": "HTML-CSS"
+		},
+		{
+			"path": "Java Exercises"
+		},
+		{
+			"path": "Python Exercises"
+		}
+	],
+	"settings": {
+		"java.debug.settings.onBuildFailureProceed": true
+	}
+}

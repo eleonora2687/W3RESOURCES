@@ -84,3 +84,21 @@ tuple = tuple(lst)
 print('List : ', lst)
 print('Tuple : ', tuple)
  """
+ 
+ 
+# 7. Write a  Python program that accepts a filename from the user and prints the extension of the file.
+# Sample filename : abc.java
+# Output : java
+
+
+""" filename = input('Enter the name of a file: ')
+
+i = len(filename) - 1
+counter = 0
+
+while filename[i] != '.':
+      counter += 1
+      i -= 1
+for j in range(counter, 0, -1):
+      print(filename[len(filename) -1 - j + 1], end='') """
+      
