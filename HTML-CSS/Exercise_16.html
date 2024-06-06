@@ -1,0 +1,52 @@
+<!-- In this exercise you will use font awesome vector icons with bootstrap3. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Font awesome vector icons using bootstrap3</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+        .dropdown {
+          position: relative;
+          display: inline-block;
+          
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 120px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          padding: 12px 16px;
+          z-index: 1;
+        }
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        </style>
+    
+  </head>
+  <body>
+    <div class="dropdown">
+      <p>
+        <a href="#" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-user"></span> User
+          <span class="glyphicon glyphicon-triangle-bottom"></span>
+        </a>
+      </p> 
+      <div class="dropdown-content">
+        <p><span class="glyphicon glyphicon-edit"></span> Edit</p>
+        <p><span class="glyphicon glyphicon-trash"></span> Delete</p>
+        <p><span class="glyphicon glyphicon-ban-circle"></span> Ban</p>
+     </div>
+    </div>
+
+    
+  </body>
+</html>

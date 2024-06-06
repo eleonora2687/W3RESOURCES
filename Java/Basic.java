@@ -344,3 +344,36 @@ public class Basic{
 
  */
 
+
+
+
+//  15. Write a Java program to swap two variables.
+
+/**
+ * Basic
+ */
+/* public class Basic {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int x, y, temp;
+
+        x = scanner.nextInt();
+        y = scanner.nextInt();
+
+        temp = x;
+        x = y;
+        y = temp;
+
+        System.out.println("x = " + x + ", y = " + y);
+    }
+}
+
+ */
+
+
+
+
+
+
+

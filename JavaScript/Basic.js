@@ -19,6 +19,45 @@ date.getMinutes()+' :'
 +date.getSeconds()); */
 
 
-// 2. Write a JavaScript program to print the current window contents.  
+// 3. Write a JavaScript program to get the current date.
+// Expected Output :
+// mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy
 
-console.log(window.print());
+
+/* const today = new Date();
+
+let dd = today.getDate();
+let mm = today.getMonth() + 1;
+const yyyy = today.getFullYear();
+
+if (dd < 10)
+{
+    dd = '0' + dd;
+}
+
+if (mm < 10)
+{
+    mm = '0' + mm;
+}
+
+console.log(dd + '-' + mm + '-' + yyyy);
+
+console.log(dd + '/' + mm + '/' + yyyy);
+
+console.log(mm + '-' + dd + '-' + yyyy);
+
+console.log(mm + '/' + dd + '/' + yyyy); */
+
+
+
+
+// 4. Write a JavaScript program to find the area of a triangle where three sides are 5, 6, 7.  
+
+
+/* var a = 5;
+var b = 6;
+var c = 7;
+
+let s = (a + b + c)/2;
+
+console.log(Math.sqrt(s*(s-a)*(s-b)*(s-c))); */

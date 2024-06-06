@@ -101,4 +101,16 @@ while filename[i] != '.':
       i -= 1
 for j in range(counter, 0, -1):
       print(filename[len(filename) -1 - j + 1], end='') """
-      
+
+
+
+    
+#  8. Write a  Python program to display the first and last colors from the following list.
+#  color_list = ["Red","Green","White" ,"Black"]
+
+
+""" color_list = ["Red","Green","White" ,"Black"]
+
+print(color_list[0], color_list[-1], sep=' - ', end='') """
+
+
