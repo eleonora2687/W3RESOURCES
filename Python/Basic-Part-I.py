@@ -114,3 +114,69 @@ for j in range(counter, 0, -1):
 print(color_list[0], color_list[-1], sep=' - ', end='') """
 
 
+
+# 9. Write a Python program to display the examination schedule. (extract the date from exam_st_date).
+# exam_st_date = (11, 12, 2014)
+# Sample Output : The examination will start from : 11 / 12 / 2014
+
+
+""" exam_st_date = (11, 12, 2014)
+
+print('The exams will start in: ', end='')
+print(exam_st_date[0],  exam_st_date[1], exam_st_date[2], sep=' / ')
+
+ """
+ 
+ 
+# 10. Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn.
+# Sample value of n is 5
+# Expected Result : 615
+
+
+
+""" def nn(n):
+      result = ''
+      for i in range(2):
+            result += str(n)
+      return eval(result)
+            
+def nnn(n):
+      result = ''
+      for i in range(3):
+            result += str(n)
+      return eval(result)
+            
+
+n = int(input('Give an integer: '))
+print(n+nn(n)+nnn(n)) """
+
+
+
+# 11. Write a  Python program to print the documents (syntax, description etc.) of Python built-in function(s).
+# Sample function : abs()
+# Expected Result :
+# abs(number) -> number
+# Return the absolute value of the argument.
+
+
+""" print(aiter.__doc__)
+print(chr.__doc__)
+print(dir.__doc__)
+print(frozenset.__doc__)
+print(locals.__doc__)
+print(ord.__doc__)
+print(vars.__doc__)
+print(zip.__doc__) """
+
+
+
+
+# 12. Write a  Python program that prints the calendar for a given month and year.
+# Note : Use 'calendar' module.
+
+
+import calendar
+
+yy = 2017
+mm = 11
+print(calendar.month(yy, mm))

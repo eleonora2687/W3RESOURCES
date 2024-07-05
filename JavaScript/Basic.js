@@ -61,3 +61,38 @@ var c = 7;
 let s = (a + b + c)/2;
 
 console.log(Math.sqrt(s*(s-a)*(s-b)*(s-c))); */
+
+
+// 6. Write a JavaScript program to determine whether a given year is a leap year in the Gregorian calendar.  
+
+
+/*
+let year = 2100;
+
+if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {
+    console.log("Leap");
+}else {
+    console.log("Normal");
+}*/
+
+
+
+var client_id = 'b8d862cf723b44978761e361048248ea';
+var client_secret = 'c539d91a68d243eb822b07ff0a680cd7';
+
+var authOptions = {
+  url: 'https://accounts.spotify.com/api/token',
+  headers: {
+    'Authorization': 'Basic ' + (new Buffer.from(client_id + ':' + client_secret).toString('base64'))
+  },
+  form: {
+    grant_type: 'client_credentials'
+  },
+  json: true
+};
+
+request.post(authOptions, function(error, response, body) {
+  if (!error && response.statusCode === 200) {
+    var token = body.access_token;
+  }
+});

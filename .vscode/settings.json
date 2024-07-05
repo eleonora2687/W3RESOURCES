@@ -55,5 +55,14 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+  "java.test.config": [
+    {
+      "name": "Test with AppMap",
+      "vmArgs": [
+        "-javaagent:${userHome}\\.appmap\\lib\\java\\appmap.jar",
+        "-Dappmap.output.directory=${command:appmap.getAppmapDir}"
+      ]
+    }
+  ]
 }

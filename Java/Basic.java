@@ -373,7 +373,249 @@ public class Basic{
 
 
 
+//  16. Write a Java program to print a face.
+//  Expected Output
+ 
+//   +"""""+
+//  [| o o |]
+//   |  ^  |
+//   | '-' |
+//   +-----+
+
+
+
+/**
+ * Basic
+ */
+/* public class Basic {
+
+    public static void main(String[] args) {
+        System.out.println("   +\"\"\"\"\"+");
+        System.out.println("  [| o o |]");
+        System.out.println("   |  ^  |");
+        System.out.println("   | '-' |");
+        System.out.println("   +-----+");
+    }
+} */
 
 
 
 
+// 17. Write a Java program to add two binary numbers.
+// Input Data:
+// Input first binary number: 10
+// Input second binary number: 11
+// Expected Output
+
+// Sum of two binary numbers: 101
+
+/**
+ * Basic
+ */
+/* public class Basic {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        int x, y;
+        x = scanner.nextInt();
+        y = scanner.nextInt();
+
+        int sum = bin_to_dec(x) + bin_to_dec(y);
+        System.out.println(dec_to_bin(sum));
+
+        
+    }
+
+    static int bin_to_dec(int bin) {
+        int num = bin;
+        int dec = 0;
+ 
+    
+        int base = 1;
+    
+        int temp = num;
+        while (temp != 0) {
+            int last_digit = temp % 10;
+            temp = temp / 10;
+    
+            dec += last_digit * base;
+    
+            base = base * 2;
+        }
+    
+        return dec;
+        }
+
+    static int dec_to_bin(int dec) {
+        int bin = 0; 
+        int cnt = 0; 
+        while (dec != 0) { 
+            int rem = dec % 2; 
+            double c = Math.pow(10, cnt); 
+            bin += rem * c; 
+            dec /= 2; 
+            cnt++; 
+
+        } 
+  
+        return bin; 
+    }
+} */
+
+
+// 18. Write a Java program to multiply two binary numbers.
+// Input Data:
+// Input the first binary number: 10
+// Input the second binary number: 11
+// Expected Output
+
+
+
+/**
+ * Basic
+ */
+/* public class Basic {
+
+    public static void main(String[] args) {
+        int b1 = 100;
+        int b2 = 11;
+        int mult;
+        mult = dec_to_bin(bin_to_dec(b1) * bin_to_dec(b2));
+        System.out.println(mult);
+    }
+
+    static int bin_to_dec(int bin) {
+        int dec = 0;
+        int base = 1;
+
+        while (bin != 0) {
+            dec += bin % 10 * base;
+            bin /= 10;
+            base *= 2;
+
+        } return dec;
+    }
+
+    static int dec_to_bin(int dec) {
+        int bin = 0;
+        int base = 1;
+
+        while (dec != 0) {
+            bin += dec % 2 * base;
+            dec /= 2;
+            base *= 10;
+            
+        } return bin;
+    }
+} */
+
+
+// 19. Write a Java program to convert an integer number to a binary number.
+// Input Data:
+// Input a Decimal Number : 5
+// Expected Output
+
+// Binary number is: 101 
+
+
+import java. util. Scanner; 
+/**
+ * Basic
+ */
+/* public class Basic {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int dec;
+        dec = scanner.nextInt();
+        
+        int bin = 0;
+        int remainder;
+        int base = 1;
+
+        while (dec != 0) {
+            remainder = dec%2;
+            bin += remainder * base;
+            dec /= 2;
+            base *= 10;
+        }
+
+        System.out.println(bin);
+
+    }
+
+    @Override
+    public String toString() {
+        return "Basic []";
+    }
+}
+
+ */
+
+
+// 20. Write a Java program to convert a decimal number to a hexadecimal number.
+// Input Data:
+// Input a decimal number: 15
+// Expected Output
+
+// Hexadecimal number is : F 
+
+
+
+/**
+ * InnerBasic
+ */
+public class Basic {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter positive integer");
+        int dekadikos = scanner.nextInt();
+
+        String dekaexadikos = "";
+
+        while (dekadikos != 0) {
+            int ypoloipo = dekadikos%16;
+            dekadikos/=16;
+
+            if (ypoloipo == 10) {
+                dekaexadikos+="A";
+            }
+            else if (ypoloipo == 11) {
+                dekaexadikos+="B";
+            }
+
+            else if (ypoloipo == 12) {
+                dekaexadikos+="C";
+            }
+            else if (ypoloipo == 13) {
+                dekaexadikos+="D";
+            }
+            else if (ypoloipo == 14) {
+                dekaexadikos+="E";
+            }
+            else if (ypoloipo == 15) {
+                dekaexadikos+="F";
+            }
+            else{
+            dekaexadikos+=ypoloipo;}
+            
+        }
+
+        String nstr="";
+        char ch;
+      
+    
+      
+      for (int i=0; i<dekaexadikos.length(); i++)
+      {
+        ch= dekaexadikos.charAt(i); 
+        nstr= ch+nstr; 
+      }
+      System.out.println(nstr);
+        
+
+    }
+}
