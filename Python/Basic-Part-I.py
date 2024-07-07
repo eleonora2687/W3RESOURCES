@@ -175,8 +175,26 @@ print(zip.__doc__) """
 # Note : Use 'calendar' module.
 
 
-import calendar
+""" import calendar
 
 yy = 2017
 mm = 11
-print(calendar.month(yy, mm))
+print(calendar.month(yy, mm)) """
+
+
+
+# 13. Write a Python program to print the following 'here document'.
+# Sample string :
+# a string that you "don't" have to escape
+# This
+# is a ....... multi-line
+# heredoc string --------> example
+
+
+
+# Use triple double-quotes to create a multi-line string
+print("""
+a string that you "don't" have to escape 
+This 
+is a  ....... multi-line 
+heredoc string --------> example""")

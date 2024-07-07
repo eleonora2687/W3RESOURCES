@@ -77,22 +77,16 @@ if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {
 
 
 
-var client_id = 'b8d862cf723b44978761e361048248ea';
-var client_secret = 'c539d91a68d243eb822b07ff0a680cd7';
+// 7. Write a JavaScript program to find out if 1st January will be a Sunday between 2014 and 2050.  
 
-var authOptions = {
-  url: 'https://accounts.spotify.com/api/token',
-  headers: {
-    'Authorization': 'Basic ' + (new Buffer.from(client_id + ':' + client_secret).toString('base64'))
-  },
-  form: {
-    grant_type: 'client_credentials'
-  },
-  json: true
-};
+for (let i=2016; i < 2051; i++) {
 
-request.post(authOptions, function(error, response, body) {
-  if (!error && response.statusCode === 200) {
-    var token = body.access_token;
-  }
-});
+       let date = i + "-01-01";
+       const d = new Date(date);
+       if (d.getDay() === 0) {
+        console.log(i);
+       }
+  
+}
+
+

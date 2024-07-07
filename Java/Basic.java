@@ -518,42 +518,6 @@ public class Basic{
 
 // Binary number is: 101 
 
-
-import java. util. Scanner; 
-/**
- * Basic
- */
-/* public class Basic {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int dec;
-        dec = scanner.nextInt();
-        
-        int bin = 0;
-        int remainder;
-        int base = 1;
-
-        while (dec != 0) {
-            remainder = dec%2;
-            bin += remainder * base;
-            dec /= 2;
-            base *= 10;
-        }
-
-        System.out.println(bin);
-
-    }
-
-    @Override
-    public String toString() {
-        return "Basic []";
-    }
-}
-
- */
-
-
 // 20. Write a Java program to convert a decimal number to a hexadecimal number.
 // Input Data:
 // Input a decimal number: 15
@@ -564,9 +528,9 @@ import java. util. Scanner;
 
 
 /**
- * InnerBasic
+ * Basic
  */
-public class Basic {
+/* public class Basic {
 
     public static void main(String[] args) {
 
@@ -619,3 +583,37 @@ public class Basic {
 
     }
 }
+ */
+
+
+// 21. Write a Java program to convert a decimal number to an octal number.
+// Input Data:
+// Input a Decimal Number: 15
+// Expected Output
+
+// Octal number is: 17
+
+/**
+ * Basic
+ */
+/* public class Basic {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        int decimal = scanner.nextInt();
+
+        int octal = 0;
+        int basis =1;
+
+        while (decimal != 0) {
+            int remainder = decimal % 8;
+            octal += remainder * basis;
+            basis *= 10;
+            decimal /= 8;
+        }
+        System.out.println(octal);
+
+    }
+} */
