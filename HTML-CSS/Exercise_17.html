@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset=utf-8><!-- Define the character encoding of the document as UTF-8 -->
+<title>Image cross effect with CSS3 transition</title><!-- Set the title of the HTML page -->
+<style type="text/css">
+
+
+.changer img { transition: 1s ease-in-out; } 
+
+img.step1{ opacity: 1.0; } 
+
+.changer:hover img.step1{ opacity: 0; } 
+
+</style>
+</head>
+<body>
+<div class="changer">
+<img class="step1" style="position: absolute;" src="https://www.w3resource.com/html-css-exercise/pic1.png" alt=""><!-- First image with class "step1" and positioned absolutely -->
+<img class="step2" src="https://www.w3resource.com/html-css-exercise/pic2.png" alt=""><!-- Second image with class "step2" -->
+</div>
+</body>
+</html>
