@@ -179,7 +179,7 @@ print(zip.__doc__) """
 
 yy = 2017
 mm = 11
-print(calendar.month(yy, mm)) """
+print(calendar.month(yy, mm))  """
 
 
 
@@ -192,9 +192,25 @@ print(calendar.month(yy, mm)) """
 
 
 
-# Use triple double-quotes to create a multi-line string
-print("""
+""" print("""
 a string that you "don't" have to escape 
 This 
 is a  ....... multi-line 
 heredoc string --------> example""")
+ """
+
+
+
+# 14. Write a Python program to calculate the number of days between two dates.
+# Sample dates : (2014, 7, 2), (2014, 7, 11)
+# Expected output : 9 days
+
+
+""" from datetime import date
+
+f_date = date(1987, 6, 1)
+l_date = date(2024, 7, 11)
+diff = l_date - f_date
+
+print(diff.days)
+ """

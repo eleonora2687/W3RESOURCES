@@ -629,12 +629,10 @@ public class Basic{
 
 // Decimal Number: 4 
 
-import java.util.Scanner;
-
 /**
  * Basic
  */
-public class Basic {
+/* public class Basic {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -652,4 +650,4 @@ public class Basic {
         }
         System.out.println(decimal);
     }
-}
+} */
