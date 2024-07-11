@@ -617,3 +617,39 @@ public class Basic{
 
     }
 } */
+
+
+
+
+
+// 22. Write a Java program to convert a binary number to a decimal number.
+// Input Data:
+// Input a binary number: 100
+// Expected Output
+
+// Decimal Number: 4 
+
+import java.util.Scanner;
+
+/**
+ * Basic
+ */
+public class Basic {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int decimal = 0;
+        int binary = scanner.nextInt();
+
+        int base = 1;
+
+        while (binary != 0 ) {
+            int digit = binary % 2;
+            decimal += digit * base;
+            binary /= 10;
+            base *= 2;
+
+        }
+        System.out.println(decimal);
+    }
+}
